@@ -1,0 +1,18 @@
+<section id="book">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 mx-auto">
+        <div class="card">
+          <div class="card-body text-center">
+            <p><img class="img-fluid" [src]="book?.couverture" [alt]="book?.titre"></p>
+            <h4 class="card-title">{{book?.titre}}</h4>
+            <p class="card-text">
+              {{book?.description}}
+            </p>
+            <a href="{{book?.link_amazon}}" target="_blank" class="btn btn-primary btn-block">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
